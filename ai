@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>OpenAI API Demo</title>
+</head>
+<body>
+  <h1>OpenAI API Demo</h1>
+  <form action="process.php" method="post">
+    <label for="prompt">Enter your prompt:</label><br>
+    <textarea id="prompt" name="prompt"></textarea><br>
+    <input type="submit" value="Generate PDF">
+  </form>
+</body>
+</html>
